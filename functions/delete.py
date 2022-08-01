@@ -7,9 +7,9 @@ def delete():
         print(" ")
         conn = psycopg2.connect(
             database="samuel_proyecto",
-            user="alumno",
-            password="alumno",
-            host="157.245.180.1",
+            user="insert_user_here",
+            password="insert_password_here",
+            host="insert_host_here",
             port="5432"
         )
 
